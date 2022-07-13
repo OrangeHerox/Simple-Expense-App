@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EXPENSE TRACKER</title>
+  <link rel="stylesheet" href="expense.css">
+</head>
+
+<body>
+  
+  
+  <div class="container">
+    
+    <h1>EXPENSES TRACKER</h1>
+    <label>Expense Name</label>
+    <input type="text" id="name"> <br/>
+    <label>Expending Date</label>
+    <input type="date" name="Date" id="date"> <br/>
+    <label>Amount</label>
+    <input type="number" name="Number" id="num"> <br/>
+    <button id="add" class="middle">Add Expense</button>
+  
+    <table id="table">
+      <tr>
+        <th>NAME</th>
+        <th>DATE</th>
+        <th>AMOUNT</th>
+      </tr>
+      <tr>
+        <td id="tdFirst"></td>
+      </tr>
+    </table>
+    <button id="ca">CLEAR ALL</button>
+
+  </div>
+  
+  
+<script src="expense.js"></script>
+</body>
+
+</html>
